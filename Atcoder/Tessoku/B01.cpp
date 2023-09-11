@@ -6,8 +6,11 @@
 using namespace std;
 
 int main() {
-    int n;
-    cin >> n;
-    cout << n*n << endl;
+    int A, B;
+    cin >> A >> B;
+    cout << A+B << endl;
     return 0;
 }
+//
+// Created by satos on 2023/09/07.
+//
