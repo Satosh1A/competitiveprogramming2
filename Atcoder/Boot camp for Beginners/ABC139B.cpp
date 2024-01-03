@@ -16,3 +16,6 @@ int main() {
     cout << ((b-1)+(a-1)-1)/(a-1) << endl;//切り上げ
     return 0;
 }
+//
+// Created by satos on 2024/01/03.
+//
