@@ -22,3 +22,6 @@ int main() {
     else cout << h*w/2 << endl;
     return 0;
 }
+//
+// Created by satos on 2024/01/06.
+//
