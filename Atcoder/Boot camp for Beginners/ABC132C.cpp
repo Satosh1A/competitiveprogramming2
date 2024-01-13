@@ -18,3 +18,6 @@ int main() {
     cout << d[n/2]-d[n/2-1] << endl;
     return 0;
 }
+//
+// Created by satos on 2024/01/13.
+//
