@@ -22,3 +22,6 @@ int main() {
     for(int i=0;i<n;i++) cout << v[i].second << endl;
     return 0;
 }
+//
+// Created by satos on 2024/01/13.
+//
