@@ -25,3 +25,6 @@ int main() {
     cout << min(ans1,ans2) << endl;
     return 0;
 }
+//
+// Created by satos on 2024/01/13.
+//
