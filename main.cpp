@@ -8,23 +8,20 @@
 using namespace std;
 using ll = long long;
 
-bool isprime(long long N) {
-    if (N < 2) return false;
-    for (long long i = 2; i * i <= N; ++i) {
-        if (N % i == 0) return false;
-    }
-    return true;
-}
-
 int main() {
-    int x;
-    cin >> x;
-    for(int i=x;i<1010100;i++){
-        if(isprime(i)) {
-            cout << i << endl;
-            return 0;
+    int n,x;
+    cin >> n >> x;
+    int a[110];
+    for(int i=0;i<n;i++) cin >> a[i];
+    sort(a,a+n);
+    int count = 0,ans = 0;
+    for(int i=0;i<n;i++){
+        count+=a[i];
+        if(count<=x){
+            ans++;
         }
     }
-
+    if(ans==n&&count!=x) ans--;
+    cout << ans << endl;
     return 0;
 }
