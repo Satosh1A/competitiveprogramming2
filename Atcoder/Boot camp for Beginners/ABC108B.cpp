@@ -18,3 +18,6 @@ int main() {
     cout << x3 << " " << y3 << " " << x4 << " " << y4 << endl;
     return 0;
 }
+//
+// Created by satos on 2024/01/19.
+//
