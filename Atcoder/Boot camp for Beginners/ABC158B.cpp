@@ -17,3 +17,6 @@ int main() {
     cout << ans << endl;
     return 0;
 }
+//
+// Created by satos on 2024/01/18.
+//
