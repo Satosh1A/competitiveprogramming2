@@ -22,3 +22,6 @@ int main() {
     else cout << 0 << endl;
     return 0;
 }
+//
+// Created by satos on 2024/01/22.
+//
