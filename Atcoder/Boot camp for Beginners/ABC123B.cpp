@@ -24,11 +24,11 @@ int main(){
     do {
         int t = 0;
         rep(i, 0, 5) {
-        int vi = v[i];
-        if (0 < t % 10) t = t - (t % 10) + 10;
-        t += A[vi];
-    }
-    chmin(ans, t);
+            int vi = v[i];
+            if (0 < t % 10) t = t - (t % 10) + 10;
+            t += A[vi];
+        }
+        chmin(ans, t);
     } while (next_permutation(all(v)));
     cout << ans << endl;
     return 0;
