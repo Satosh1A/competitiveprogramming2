@@ -25,6 +25,26 @@ const ll linf = 1e18;
 
 
 int main(){
-
+    int n;
+    cin >> n;
+    V a(n);
+    rep(i,0,n){
+        cin >> a[i];
+    }
+    V b = a;
+    sort(all(b));
+    rep(i,0,n){
+        if(b[n-2]==b[n-1]){
+            cout << b[n-2] << endl;
+        }else{
+            if(a[i]<b[n-1]){
+                cout << b[n-1] << endl;
+            }else{
+                cout << b[n-2] << endl;
+            }
+        }
+    }
     return 0;
-}
+}//
+// Created by satos on 2024/02/10.
+//
