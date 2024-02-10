@@ -39,3 +39,6 @@ int main(){
     else cout << "No" << endl;
     return 0;
 }
+//
+// Created by satos on 2024/02/10.
+//
