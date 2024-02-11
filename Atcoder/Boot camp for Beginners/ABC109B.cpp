@@ -49,3 +49,6 @@ int main(){
     cout << "Yes" << endl;
     return 0;
 }
+//
+// Created by satos on 2024/02/11.
+//
