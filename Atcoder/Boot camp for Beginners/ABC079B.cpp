@@ -23,25 +23,22 @@ const ll linf = 1e18;
 #define PQG priority_queue<int,V,greater<int>>
 #define pb(a) push_back(a)
 #define mp make_pair
+
 unordered_map<ll,ll> memo;
 
-int main(){
-    int n;
-    cin >> n;
-    int ans = 0,now = 0;
-    int h[n];
-    rep(i,0,n) cin >> h[i];
-    rep(i,0,n-1){
-        if(h[i]>=h[i+1]){
-            now++;
-            ans = max(ans,now);
-        }
+ll f(ll a){
+    if(memo.find(a)!=memo.end()) return memo[a];
+    if(a==0) return memo[a] = 2;
+    else if(a == 1) return memo[a] = 1;
+    else return memo[a] = f(a-2)+f(a-1);
+}
 
-        else{
-            ans = max(ans,now);
-            now=0;
-        }
-    }
-    cout << ans << endl;
+int main(){
+    ll n;
+    cin >> n;
+    cout << f(n) << endl;
     return 0;
 }
+//
+// Created by satos on 2024/02/11.
+//
