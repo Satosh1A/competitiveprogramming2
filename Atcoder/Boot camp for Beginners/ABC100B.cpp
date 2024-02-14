@@ -42,3 +42,6 @@ void _main() {
     rep(i, 0, D) cout << "00";
     cout << endl;
 }
+//
+// Created by satos on 2024/02/14.
+//
