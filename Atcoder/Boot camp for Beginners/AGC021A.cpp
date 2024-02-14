@@ -38,3 +38,6 @@ int main(){
     else cout << n[0]-'0'-1+9*(n.size()-1) << endl;
     return 0;
 }
+//
+// Created by satos on 2024/02/14.
+//
