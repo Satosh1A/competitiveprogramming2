@@ -52,3 +52,6 @@ void _main() {
     cout << fixed << setprecision(10);
     cout << ans/n << endl;
 }
+//
+// Created by satos on 2024/02/15.
+//
