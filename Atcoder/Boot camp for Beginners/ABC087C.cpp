@@ -49,3 +49,6 @@ void _main(){
     rep(i,1,n+1) dp[1][i] = max(dp[1][i-1],dp[0][i])+a[1][i];
     cout << dp[1][n-1] << endl;
 }
+//
+// Created by satos on 2024/02/14.
+//
