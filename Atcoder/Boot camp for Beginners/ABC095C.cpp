@@ -34,3 +34,6 @@ int main(){
     else cout << min(c*2*y,min(a*x+b*y,c*2*x+b*(y-x)));
     return 0;
 }
+//
+// Created by satos on 2024/02/14.
+//
