@@ -39,3 +39,6 @@ void _main(){
     cin >> q >> h >> s >> d >> n;
     cout << (n/2)*min(min(8*q,4*h),min(2*s,d))+(n%2)*min(4*q,min(2*h,s)) << endl;
 }
+//
+// Created by satos on 2024/02/14.
+//
