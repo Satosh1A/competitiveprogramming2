@@ -43,3 +43,6 @@ void _main() {
     rep(i,1,n+1) if(a[a[i]]==i) ans++;
     cout << ans/2 << endl;
 }
+//
+// Created by satos on 2024/02/15.
+//
