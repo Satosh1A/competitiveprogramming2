@@ -42,3 +42,6 @@ void _main() {
         cout << min({b*a,b*c,a*c}) << endl;
     }
 }
+//
+// Created by satos on 2024/02/15.
+//
