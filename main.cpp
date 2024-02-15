@@ -35,11 +35,5 @@ template<class T>bool chmin(T& a, const T& b) { if (b < a) { a = b; return 1; } 
 unordered_map<ll,ll> memo;
 
 void _main() {
-    int n;
-    cin >> n;
-    V a(n+1);
-    rep(i,1,n+1) cin >> a[i];
-    int ans = 0;
-    rep(i,1,n+1) if(a[a[i]]==i) ans++;
-    cout << ans/2 << endl;
+
 }
