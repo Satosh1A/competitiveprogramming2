@@ -49,3 +49,6 @@ void _main() {
     }
     cout << pow(3,n)-odd << endl;
 }
+//
+// Created by satos on 2024/02/15.
+//
