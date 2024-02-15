@@ -52,3 +52,6 @@ void _main() {
     else if(a+b+c-d==7)printf("%d+%d+%d-%d=7\n",a,b,c,d);
     else if(a+b+c+d==7)printf("%d+%d+%d+%d=7\n",a,b,c,d);
 }
+//
+// Created by satos on 2024/02/15.
+//
