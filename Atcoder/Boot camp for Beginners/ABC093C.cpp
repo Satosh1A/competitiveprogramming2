@@ -41,3 +41,6 @@ void _main() {
     if((goal*3-a-b-c)%2==0) cout << (goal*3-a-b-c)/2 << endl;
     else cout << (goal*3-a-b-c+3)/2 << endl;
 }
+//
+// Created by satos on 2024/02/15.
+//
