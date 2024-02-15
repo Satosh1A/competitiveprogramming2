@@ -40,3 +40,6 @@ void _main() {
     ll ans = k*pow(k-1,n-1);
     cout << ans << endl;
 }
+//
+// Created by satos on 2024/02/15.
+//
