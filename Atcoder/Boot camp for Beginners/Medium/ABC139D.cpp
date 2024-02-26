@@ -39,3 +39,6 @@ void _main() {
     cin >> n;
     cout << n*(n-1)/2 << endl;
 }
+//
+// Created by satos on 2024/02/26.
+//
