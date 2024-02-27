@@ -51,4 +51,6 @@ void _main() {
     }
     cout << max(ans,1) << endl;
     cout << ans + v[8] << endl;
-}
+}//
+// Created by satos on 2024/02/27.
+//
