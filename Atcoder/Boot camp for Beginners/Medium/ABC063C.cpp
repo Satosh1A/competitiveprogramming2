@@ -36,5 +36,22 @@ unordered_map<ll,ll> memo;
 int gcd(int a, int b){if(a%b == 0){return b;}else{return gcd(b, a%b);}}
 int lcm(int a, int b){return a*b / gcd(a, b);}
 
+int N, A[101010];
+int dp[101][10101];
+//---------------------------------------------------------------------------------------------------
 void _main() {
-}
+    cin >> N;
+    rep(i, 0, N) cin >> A[i];
+
+    dp[0][0] = 1;
+    rep(i, 0, N) rep(j, 0, 10001) if(dp[i][j]) {
+                dp[i + 1][j] = 1;
+                dp[i + 1][j + A[i]] = 1;
+            }
+
+    int ans = 0;
+    rep(j, 0, 10001) if (j % 10 && dp[N][j]) ans = max(ans, j);
+    cout << ans << endl;
+}//
+// Created by satos on 2024/03/20.
+//
