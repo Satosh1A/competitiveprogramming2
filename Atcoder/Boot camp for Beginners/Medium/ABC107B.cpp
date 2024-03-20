@@ -69,4 +69,6 @@ void _main() {
         }
         if(c[i])cout << endl;
     }
-}
+}//
+// Created by satos on 2024/03/20.
+//
