@@ -38,16 +38,18 @@ int lcm(int a, int b){return a*b / gcd(a, b);}
 
 
 void _main() {
-   int n;
-   V v(101010,0);
-   cin >> n;
-   rep(i,0,n){
-       int a;
-       cin >> a;
-       v[a+1]++;
-       v[a+2]++;
-       v[a]++;
-   }
-   sort(all(v));
-   cout << v[v.size()-1] << endl;
-}
+    int n;
+    V v(101010,0);
+    cin >> n;
+    rep(i,0,n){
+        int a;
+        cin >> a;
+        v[a+1]++;
+        v[a+2]++;
+        v[a]++;
+    }
+    sort(all(v));
+    cout << v[v.size()-1] << endl;
+}//
+// Created by satos on 2024/03/20.
+//
