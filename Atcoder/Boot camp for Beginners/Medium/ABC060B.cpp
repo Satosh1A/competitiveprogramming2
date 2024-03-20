@@ -47,4 +47,6 @@ void _main() {
         }
     }
     cout << "NO" << endl;
-}
+}//
+// Created by satos on 2024/03/20.
+//
