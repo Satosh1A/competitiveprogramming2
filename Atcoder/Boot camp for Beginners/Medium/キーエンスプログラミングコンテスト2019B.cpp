@@ -47,4 +47,6 @@ void _main() {
     if(s.substr(0,7)=="keyence"||s.substr(s.size()-7,7)=="keyence") ans = true;
     if(ans) cout << "YES" << endl;
     else cout << "NO" << endl;
-}
+}//
+// Created by satos on 2024/03/20.
+//
