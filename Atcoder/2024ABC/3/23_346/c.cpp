@@ -46,10 +46,13 @@ void _main() {
         ll b;
         cin >> b;
         if(a.find(b)==a.end()&&b<=k){
-          ans-=b;
-          a.insert(b);
+            ans-=b;
+            a.insert(b);
         }
     }
     cout << ans << endl;
 }
 
+//
+// Created by satos on 2024/04/18.
+//
